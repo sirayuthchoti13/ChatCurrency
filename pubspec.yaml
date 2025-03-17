@@ -1,0 +1,34 @@
+name: flutter_application
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.12
+  google_fonts: ^6.1.0
+  http: ^1.3.0
+  lottie: ^3.3.1
+  provider: ^6.1.2
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/nattawut.jpg
+    - assets/purinut.jpg
+    - assets/sirayuth.jpg
+    - assets/exchange_image.jpg
+
+
+path_provider: ^2.x.x
